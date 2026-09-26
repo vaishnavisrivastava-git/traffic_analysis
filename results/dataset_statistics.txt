@@ -1,0 +1,16 @@
+NGSIM Dataset Preprocessing Statistics
+=======================================
+Input file: D:\SEM 5\HPCC\Hpcc_projectcode\export.csv
+Original number of rows processed: 2628581
+Final number of cleaned rows: 2153483
+Duplicate rows removed: 274343
+Invalid/missing rows removed: 200755
+Unique vehicles: 2849
+Unique frames: 10306
+Unique lanes: 13
+Velocity: min=0.000000, max=95.300000, average=28.083622
+Acceleration: min=-12.270000, max=12.270000, average=0.010222
+Space headway: min=0.000000, max=1855.750000, average=79.518018
+Missing values before cleaning: 90
+Missing values after cleaning: 0
+Location values: peachtree, us-101

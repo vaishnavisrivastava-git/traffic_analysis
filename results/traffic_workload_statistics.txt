@@ -1,0 +1,15 @@
+Traffic Workload Statistics
+============================
+Records processed: 2153483
+Unique vehicles: 2849
+Frames: 10306
+Lanes: 13
+Candidate pairs: 210080944
+Nearby interactions: 7905123
+Critical interactions: 3294637
+Average interaction distance: 28.037626
+Minimum interaction distance: 0.007071
+Average valid TTC: 31.454666
+Minimum valid TTC: 0.000159
+Average velocity: 28.083622
+Average acceleration: 0.010222

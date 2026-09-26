@@ -1,0 +1,84 @@
+Sequential CPU Baseline (C++17)
+===============================
+Input: data/processed/ngsim_cleaned.csv
+Execution time covers frame grouping and pair analysis; CSV loading, output, and console I/O are excluded.
+Each workload uses a deterministic prefix of the cleaned CSV.
+Records available: 2153483
+
+Workload: 1K
+Records processed: 1000
+Candidate pairs: 38
+Nearby interactions: 0
+Critical interactions: 0
+Execution time (seconds): 0.000229
+
+Workload: 5K
+Records processed: 5000
+Candidate pairs: 6882
+Nearby interactions: 1235
+Critical interactions: 200
+Execution time (seconds): 0.000659
+
+Workload: 10K
+Records processed: 10000
+Candidate pairs: 25692
+Nearby interactions: 2812
+Critical interactions: 533
+Execution time (seconds): 0.001068
+
+Workload: 50K
+Records processed: 50000
+Candidate pairs: 620261
+Nearby interactions: 31979
+Critical interactions: 4651
+Execution time (seconds): 0.005649
+
+Workload: 100K
+Records processed: 100000
+Candidate pairs: 1915483
+Nearby interactions: 86716
+Critical interactions: 16295
+Execution time (seconds): 0.019581
+
+Workload: 250K
+Records processed: 250000
+Candidate pairs: 8030878
+Nearby interactions: 371445
+Critical interactions: 126137
+Execution time (seconds): 0.050649
+
+Workload: 500K
+Records processed: 500000
+Candidate pairs: 22998734
+Nearby interactions: 996991
+Critical interactions: 364133
+Execution time (seconds): 0.154412
+
+Workload: 1M
+Records processed: 1000000
+Candidate pairs: 58500037
+Nearby interactions: 2242798
+Critical interactions: 900196
+Execution time (seconds): 0.339788
+
+Workload: 1.5M
+Records processed: 1500000
+Candidate pairs: 105396929
+Nearby interactions: 3899787
+Critical interactions: 1642831
+Execution time (seconds): 0.642145
+
+Workload: 2M
+Records processed: 2000000
+Candidate pairs: 181281963
+Nearby interactions: 6679546
+Critical interactions: 2881641
+Execution time (seconds): 1.002551
+
+Workload: Full cleaned dataset
+Records processed: 2153483
+Candidate pairs: 210080944
+Nearby interactions: 7905123
+Critical interactions: 3294637
+Execution time (seconds): 1.213796
+
